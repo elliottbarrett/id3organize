@@ -2,11 +2,6 @@ import os
 import sys
 import eyed3
 
-
-HOME_DIR = os.path.expanduser("~")
-TEST_INPUT_PATH = HOME_DIR + "/Downloads/"
-TEST_OUTPUT_PATH = HOME_DIR + "/Music/"
-
 USAGE_MESSAGE = """id3organize.py - recursively organize mp3s based on id3 metadata
 
   Usage: python id3organize.py input_root output_root
